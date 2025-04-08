@@ -1,0 +1,125 @@
+
+.document-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: url("https://images.pexels.com/photos/5102215/pexels-photo-5102215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center/cover;
+    backdrop-filter: blur(5px);
+  }
+  
+
+  .document-container {
+    width: 95%;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+  }
+  
+  .document-container:hover {
+    transform: scale(1.01);
+  }
+ 
+  .document-header {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+
+  .document-loading,
+  .document-empty {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7f8c8d;
+  }
+  
+ 
+  .document-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+
+  .document-card {
+    background: rgba(248, 249, 250, 0.95);
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #3498db;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .document-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+
+  .document-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 6px;
+  }
+  
+
+  .document-info {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+
+  .document-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+
+  .document-view-btn {
+    background: #27ae60;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .document-view-btn:hover {
+    background: #219150;
+  }
+  
+
+  .document-delete-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .document-delete-btn:hover {
+    background: #c0392b;
+  }

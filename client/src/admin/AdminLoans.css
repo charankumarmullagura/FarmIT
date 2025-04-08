@@ -1,0 +1,90 @@
+
+.unique-loans-container {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .unique-loans-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #222;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem;
+  }
+  
+
+  .unique-loans-loading,
+  .unique-loans-empty {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+
+  .unique-loans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+ 
+  .unique-loan-card {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 1.8rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    border-left: 6px solid #007bff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+ 
+  .unique-loan-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .unique-loan-farmer,
+  .unique-loan-amount {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+
+  .unique-loan-status {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  
+  .unique-loan-status.approved {
+    color: #155724;
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+  }
+  
+  .unique-loan-status.pending {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-left: 4px solid #dc3545;
+  }
+  

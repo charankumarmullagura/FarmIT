@@ -1,0 +1,228 @@
+/* .admin-container-verify {
+  padding: 3rem 1rem;
+  background: linear-gradient(to right bottom, #1f1f1f, #2a2a72, #4e54c8);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-heading-verify {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.admin-grid-verify {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.admin-profile-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 1.5rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  color: #ffffff;
+}
+
+.admin-profile-card:hover {
+  transform: translateY(-6px);
+}
+
+.admin-profile-info {
+  margin-bottom: 1rem;
+}
+
+.admin-profile-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.admin-profile-email,
+.admin-profile-phone {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+.admin-profile-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.admin-approve-btn,
+.admin-delete-btn,
+.admin-view-btn {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.admin-approve-btn {
+  background-color: #00c896;
+  color: #fff;
+}
+
+.admin-approve-btn:hover {
+  background-color: #00a67d;
+}
+
+.admin-delete-btn {
+  background-color: #ff5e5e;
+  color: #fff;
+}
+
+.admin-delete-btn:hover {
+  background-color: #e54848;
+}
+
+.admin-view-btn {
+  background-color: #5061ff;
+  color: #fff;
+}
+
+.admin-view-btn:hover {
+  background-color: #3f4be3;
+}
+
+.admin-loader-verify {
+  text-align: center;
+  color: #ffffffcc;
+  font-size: 1.2rem;
+  margin-top: 4rem;
+} */
+
+
+
+
+
+/* Container */
+.admin-container-verify {
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.admin-heading-verify {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #f1f2f6;
+}
+
+/* Grid Layout */
+.admin-grid-verify {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Profile Card */
+.admin-profile-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.admin-profile-card:hover {
+  transform: scale(1.02);
+}
+
+/* Info Rows */
+.admin-info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.admin-info-label {
+  font-weight: 600;
+  color: #dcdde1;
+  width: 40%;
+}
+
+.admin-info-value {
+  /* text-align: right; */
+  color: #f5f6fa;
+  width: 60%;
+  word-break: break-word;
+}
+
+/* Action Buttons */
+.admin-profile-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.admin-approve-btn,
+.admin-delete-btn,
+.admin-view-btn {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admin-approve-btn {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.admin-approve-btn:hover {
+  background-color: #27ae60;
+}
+
+.admin-delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.admin-delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.admin-view-btn {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.admin-view-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Loading Text */
+.admin-loader-verify {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.5rem;
+  color: #f1c40f;
+}

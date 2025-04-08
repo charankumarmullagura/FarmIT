@@ -1,0 +1,80 @@
+Background styling
+.body-issue {
+  background: url("https://img.freepik.com/free-vector/review-background-design_1300-14.jpg")
+    no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.issue-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(30, 41, 59, 0.85); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+}
+
+
+.issue-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+
+.issue-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.issue-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+
+.issue-form input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #94a3b8;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+
+.issue-form input:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+}
+
+
+.issue-form button {
+  background-color: #10b981;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.issue-form button:hover {
+  background-color: #059669;
+}

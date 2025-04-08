@@ -1,0 +1,95 @@
+/* Profile Container */
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Profile Header */
+.profile-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+/* Profile Details */
+.profile-details {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.profile-details p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px 0;
+  transition: background 0.3s ease;
+}
+
+.profile-details p strong {
+  color: #4f46e5;
+}
+
+.profile-details p:hover {
+  background: rgba(79, 70, 229, 0.1);
+  border-radius: 5px;
+}
+
+/* No Data Message */
+.no-data {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dc2626;
+  margin-top: 20px;
+}
+
+/* Loading & Error Messages */
+.loading, .error {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.loading {
+  color: #4f46e5;
+  background: rgba(79, 70, 229, 0.1);
+}
+
+.error {
+  color: #dc2626;
+  background: rgba(220, 38, 38, 0.1);
+}
+
+/* Create Profile Button */
+.create-profile {
+  margin-top: 20px;
+}
+
+.create-button {
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.create-button:hover {
+  background: linear-gradient(135deg, #6d28d9, #4f46e5);
+  transform: scale(1.05);
+}

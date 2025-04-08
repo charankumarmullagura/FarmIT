@@ -1,0 +1,45 @@
+.unique-analytics-container {
+    padding: 20px;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .unique-analytics-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .unique-analytics-loading {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .unique-analytics-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .unique-analytics-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 200px;
+  }
+  
+  .unique-analytics-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .unique-analytics-value {
+    font-size: 24px;
+    color: #22c55e;
+    font-weight: bold;
+  }
+  

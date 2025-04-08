@@ -1,0 +1,87 @@
+.investment-list-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+.investment-list-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("https://images.pexels.com/photos/6120176/pexels-photo-6120176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center/cover;
+  filter: blur(02px); 
+  z-index: -1;
+}
+
+
+.investment-list-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: -1;
+}
+
+.investment-list-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.investment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+.investment-card {
+  background: rgba(255, 255, 255, 0.85); 
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.investment-card:hover {
+  transform: scale(1.05);
+}
+
+.investment-amount1,
+.investment-amount,
+.investment-duration,
+.investment-interest,
+.investment-purpose,
+.investment-status {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.investment-status span {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.approved {
+  color: green;
+}
+
+.pending {
+  color: orange;
+}
+
+.rejected {
+  color: red;
+}

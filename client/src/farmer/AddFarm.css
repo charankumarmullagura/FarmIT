@@ -1,0 +1,94 @@
+.add-farm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg?cs=srgb&dl=pexels-pixabay-325944.jpg&fm=jpg") 
+    no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+
+.add-farm-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 41, 59, 0.7);
+  z-index: 1;
+}
+
+
+.add-farm-card {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  max-width: 450px;
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.add-farm-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.add-farm-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-farm-card input,
+.add-farm-card textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  margin-bottom: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.add-farm-card input::placeholder,
+.add-farm-card textarea::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+.add-farm-card textarea {
+  height: 80px;
+  resize: none;
+}
+
+.add-farm-card input:focus,
+.add-farm-card textarea:focus {
+  outline: none;
+  border-color: #2d6a4f;
+  box-shadow: 0 0 10px rgba(45, 106, 79, 0.5);
+}
+
+.add-farm-card button {
+  background-color: #2d6a4f;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-farm-card button:hover {
+  background-color: #1b4332;
+}

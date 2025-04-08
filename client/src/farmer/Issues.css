@@ -1,0 +1,166 @@
+/* .issue-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-622c-51f7-b979-5ee3b671859f/raw?se=2025-04-04T09%3A12%3A15Z&sp=r&sv=2024-08-04&sr=b&scid=7abc2376-8691-53d4-9f2b-7cf116d08618&skoid=0abefe37-d2bd-4fcb-bc88-32bccbef6f7d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-04T07%3A22%3A08Z&ske=2025-04-05T07%3A22%3A08Z&sks=b&skv=2024-08-04&sig=mq502H4q6R4emP2G4efyxfFdXFuhPy1KUQbsAVb/cYM%3D') 
+              no-repeat center center/cover;
+}
+
+
+.issue-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.issue-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+}
+
+
+button:hover {
+  background: linear-gradient(90deg, #0056b3, #004494);
+  transform: scale(1.05);
+}
+
+
+button:active {
+  transform: scale(0.95);
+} */
+
+
+
+.issue-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://img.freepik.com/free-photo/landscape-background-with-palm-trees_1048-2314.jpg?uid=R191465195&ga=GA1.1.1843888761.1737464361&w=740') 
+              no-repeat center center/cover;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+.issue-container {
+  background: rgba(0, 0, 0, 0.6); /* Darkened for better readability */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+  color: white;
+}
+
+.issue-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #0056b3, #004494);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}

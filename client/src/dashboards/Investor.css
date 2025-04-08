@@ -1,0 +1,80 @@
+.navbar {
+  background-color: #2c3e50;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1000px;
+}
+
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  color: #2c3e50;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+}
+
+
+.card-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.card-link:hover {
+  background-color: #2980b9;
+}
+
+
+.investor-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.investor-ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
