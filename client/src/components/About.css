@@ -1,4 +1,4 @@
-.about-container {
+/* .about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,8 +21,6 @@
               no-repeat center center/cover;
   filter: blur(4px);
   z-index: -1;
-}
-/* https://media.licdn.com/dms/image/v2/D4E12AQG6aW1dEL1_Ig/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1736191182272?e=2147483647&v=beta&t=fKvzONBbrqN0mksGhZMnIErDN7wPkf1qA_c-0YWPKA0 */
 
 .about-container h2 {
   font-size: 2.5rem;
@@ -75,4 +73,77 @@
   font-size: 1rem;
   color: #333;
   padding: 5px 0;
+} */
+
+
+
+.about-body {
+  background: linear-gradient(to bottom right, #000000, #6b6a6a);
+  padding: 0;
+  margin: 0;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-section {
+  padding: 60px 20px;
+  background-color: transparent;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.about-text p,
+.about-text li,
+.about-text ol {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.about-text ul,
+.about-text ol {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+/* Reversed layout */
+.reverse .about-text {
+  order: 2;
+}
+.reverse .about-image {
+  order: 1;
 }

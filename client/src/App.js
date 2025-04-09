@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import './App.css';
 import About from './components/About.js';
-import SupportTeam from './components/SupportTeam.js';
+// import SupportTeam from './components/SupportTeam.js';
 import Login from './components/Login.js';
 import SignupForm from './components/Signup.js';
+import HomePage from './components/Home.js';
 // Dashboard
 import Farmer from './dashboards/Farmer.js';
 import Investor from './dashboards/Investor.js';
@@ -47,21 +48,26 @@ function App() {
       <div className="App">
         <nav className="navbar">
           <div className="logo">
-          <span style={{ color: "white" }}>🌱FARM</span>
-          <span style={{ color: "green" }}> IT</span>
+          <Link to="/" className="logo" style={{ textDecoration: 'none' }}>
+            <span style={{ color: "white" }}>🌱FARM</span>
+            <span style={{ color: "green" }}> IT</span>
+          </Link>
           </div>
           <button className="menu-button" onClick={toggleMenu}>
             <span className="menu-icon">&#9776;</span>
           </button>
           <ul className={`nav-list ${isMenuOpen ? 'active' : ''}`}>
-             <li>
-              <Link to="/" className="nav-link">About</Link>
+          <li>
+              <Link to="/" ></Link>
             </li> 
              <li>
+              <Link to="/about" className="nav-link">About</Link>
+            </li> 
+             {/* <li>
               <Link to="/support" className="nav-link">SupportTeam</Link>
-            </li> 
+            </li>  */}
              <li>
-              <Link to="/Login" className="login-button">Login</Link>
+              <Link to="/Login" className="login-button">SignUp</Link>
             </li> 
            </ul>
         </nav>
@@ -69,8 +75,9 @@ function App() {
         <div className="content">
           <Routes>
             {/* Components */}
-            <Route path="/" element={<About />} /> 
-            <Route path="/Support" element={<SupportTeam />} />
+            <Route path="/" element={<HomePage/>} />
+            <Route path="/about" element={<About />} /> 
+            {/* <Route path="/Support" element={<SupportTeam />} /> */}
             <Route path="/Login" element={<Login />} />
             <Route path="/register" element={<SignupForm/>} />
 
